@@ -18,17 +18,17 @@ h2 {
 
 th {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #000000;
 }
 
 td {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #000000;
 }
 
 table {
   width: 850px;
   height: 700px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   background-color: #FFF9F7;
 }
