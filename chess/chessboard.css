@@ -60,3 +60,8 @@ body {
   font-weight: normal; 
   font-style: normal; 
 }
+
+img {
+ margin-left: 5px;
+ margin-top:10px;
+ }
