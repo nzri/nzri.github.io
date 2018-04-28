@@ -15,7 +15,7 @@ nav ul li, footer ul li {
 }
 a {
   text-decoration: none;
-  color: #999;
+  color: #9a9a9a;
 }
 a:hover {
   text-decoration: underline;
@@ -41,4 +41,18 @@ ul.posts {
 
 ul.posts li {
   list-style: none;
+}
+
+iframe {
+  display:block;
+  margin: 0 auto;
+}
+
+img {
+  display:block;
+  margin: 0 auto;
+}
+
+.something {
+  text-align: center;
 }
