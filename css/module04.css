@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  background-position: center;
+  background-image: url("https://i.imgur.com/NNhO4mj.jpg")
+}
+
+h1 {
+  font-family: 'UniqueRegular'; 
+  font-weight: normal; 
+  font-style: normal;
+  font-size: 32px;
+}
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center;}
+body {
+  width: 90%;
+  margin: 0 auto;}
+#content {
+  overflow: auto;}
+#nav, #feature, #footer {
+  margin: 1%}
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;}
+.column3 {
+  margin-right: 0%;}
+li {
+  display: inline;
+  padding: 0.5em;}
+#nav, #footer {
+  background-color: #efefef;
+  padding: 0.5em 0;}
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;}
+#feature {
+  background-color: #bbdd8d;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("https://i.imgur.com/TZCL8ZX.png")
+}
+#footer {
+    background-color: #9dbbf4;
+  }
+#nav {
+  background-color: #ffc65a;
+}
+
+.column1 {
+  background-color: #f07ae7;
+}
+.column2 {
+  background-color: #db57a8;
+}
+.column3 {
+  background-color: #f54985;
+}
