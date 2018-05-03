@@ -2,6 +2,7 @@ body {
   margin: 60px auto;
   width: 70%;
   background-image: url("https://i.imgur.com/6h3XsEM.png");
+  font-size: 1.05em;
 }
 nav ul, footer ul {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -57,4 +58,13 @@ img {
   text-align: center;
   font-size: 1.05em;
   font-family: Arial, Verdana, sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#post {
+  text-align: center;
 }
