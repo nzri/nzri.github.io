@@ -6,6 +6,7 @@ function validateForm(){
   var validPhone = false;
   var validAddress = false;
   var validCity = false;
+  var validCountry = false;
   var validZipcode = false;
   var validEmail = false;
   
@@ -96,6 +97,14 @@ function validateForm(){
     errorMessages += "<p>The city is required.</p>";
   else 
     validCity = true; 
+  
+  
+  /*********** VALIDATES COUNTRY ******** */
+  if (myContact.city.value===null ||
+      myContact.city.value==="")
+    errorMessages += "<p>The coutnry is required.</p>";
+  else 
+    validCountry = true; 
   
   
   /*********** VALIDATES ZIP CODE ******** */
