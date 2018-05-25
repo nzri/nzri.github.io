@@ -100,15 +100,17 @@ function validateForm(){
   
   
   /*********** VALIDATES COUNTRY ******** */
-  if (myContact.city.value===null ||
-      myContact.city.value==="")
+  if (myContact.country.value===null ||
+      myContact.country.value==="")
     errorMessages += "<p>The coutnry is required.</p>";
   else 
     validCountry = true; 
   
   
   /*********** VALIDATES ZIP CODE ******** */
-  if (country==="United States")
+  if (country==="United States" ||
+      myContact.zipcode.value===null ||
+      myContact.zipcode.value==="")
     errorMessages += "<p>The zipcode is required.</p>";
   else 
     validZipcode = true; 
