@@ -48,7 +48,7 @@ function validateForm(){
       !myContact.lastname.value.match(letters))
     errorMessages += "<p>The firstname is required and must be less than 20 characters. It cannot contain any numbers.</p>";
   else
-    validLastName = true; 
+    validFirstName = true; 
   
   
   /*********** VALIDATES LASTNAME ******** */
@@ -58,7 +58,7 @@ function validateForm(){
       !myContact.firstname.value.match(letters))
     errorMessages += "<p>The lastname is required and must be less than 50 characters. It cannot contain any numbers.</p>";
   else
-    validFirstName = true; 
+    validLastName = true; 
   
   
   /*********** VALIDATES EMAIL ******** */
