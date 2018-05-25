@@ -6,7 +6,6 @@ function validateForm(){
   var validPhone = false;
   var validAddress = false;
   var validCity = false;
-  var validCountry = false;
   var validZipcode = false;
   var validEmail = false;
   
@@ -99,18 +98,8 @@ function validateForm(){
     validCity = true; 
   
   
-  /*********** VALIDATES COUNTRY ******** */
-  if (myContact.country.value===null ||
-      myContact.country.value==="")
-    errorMessages += "<p>The coutnry is required.</p>";
-  else 
-    validCountry = true; 
-  
-  
   /*********** VALIDATES ZIP CODE ******** */
-  if (country==="United States" ||
-      myContact.zipcode.value===null ||
-      myContact.zipcode.value==="")
+  if (country === "USA")
     errorMessages += "<p>The zipcode is required.</p>";
   else 
     validZipcode = true; 
