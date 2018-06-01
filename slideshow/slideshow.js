@@ -1,4 +1,4 @@
-var myImages =["/slideshow/rainbow.jpg","/slideshow/blackyellow.jpg","/slideshow/wild.jpg","/slideshow/beaut.jpg","/slideshow/falcon.jpg"];
+var myImages =["/slideshow/rainbow.jpg","/slideshow/blackyellow.jpg","/slideshow/wild.jpg","/slideshow/beaut.jpg","/slideshow/falcon.JPG"];
 
 
 var captionImages =["Rainbow Bird","Black and Yellow Bird","Wild Bird","Beautiful Bird","Falcon"];
