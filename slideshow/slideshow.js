@@ -1,7 +1,7 @@
-var myImages =["rainbow.jpg","blackyellow.jpg","http://www.liveanimalslist.com/mammals/images/dolphin-in-water.jpg","http://i1151.photobucket.com/albums/o632/bowietvc15/Bowietvc15-2/DolphinsWallpaper2.jpg","http://i1151.photobucket.com/albums/o632/bowietvc15/funny%20gifs/animal-art-cute-dolphin-nature-Favimcom-311780.jpg"];
+var myImages =["/slideshow/rainbow.jpg","/slideshow/blackyellow.jpg","/slideshow/wild.jpg","/slideshow/beaut.jpg","/slideshow/falcon.jpg"];
 
 
-var captionImages =["Rainbow Bird","Black and Yellow Bird","Lunch","Happiness","Family"];
+var captionImages =["Rainbow Bird","Black and Yellow Bird","Wild Bird","Beautiful Bird","Falcon"];
 
  var index=0; 
 
