@@ -16,12 +16,8 @@ theme: jekyll-theme-primer
 plugins:
   - jekyll-seo-tag
 
-title: "👋 Hello, GitHub"
-description: "@natfriedman"
-
-twitter:
-  username: natfriedman
+title: "less than three"
 
 author:
-  name: Nat Friedman
-  twitter: natfriedman
+  name: -
+  twitter: -
