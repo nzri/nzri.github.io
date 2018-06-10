@@ -1,7 +1,7 @@
 body {
   margin: 60px auto;
   width: 70%;
-  background-image: url("https://i.imgur.com/6h3XsEM.png");
+  background-image: url("/prog109/images/portfoliobg.png");
   font-size: 1em;
 }
 nav ul, footer ul {
